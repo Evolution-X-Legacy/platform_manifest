@@ -38,6 +38,8 @@
   <project path="packages/apps/Evolution" name="packages_apps_Evolution" remote="evo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="evo" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="evo" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="evo" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="evo" />
 
   <!-- System Repos -->
