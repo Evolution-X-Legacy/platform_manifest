@@ -3,7 +3,7 @@
 
   <remote name="evo"
           fetch="https://github.com/Evolution-X"
-          revision="pie-evo" />
+          revision="pie" />
 
   <remote name="evo-devices"
           fetch="https://github.com/Evolution-X-Devices"
@@ -11,7 +11,7 @@
 
   <remote name="evo-gitlab"
           fetch="https://gitlab.com/EvoX"
-          revision="pie-evo" />
+          revision="pie" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="evo" />
@@ -31,7 +31,7 @@
   </project>
   <project path="manifest" name="platform_manifest" remote="evo" />
   <project path="vendor/aosp" name="vendor_aosp" remote="evo" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo-gitlab" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
   <project path="vendor/themes" name="vendor_themes" remote="evo" />
 
   <!-- Packages repos -->
