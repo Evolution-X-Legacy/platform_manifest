@@ -30,20 +30,32 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="evo" />
   <project path="manifest" name="platform_manifest" remote="evo" />
   <project path="vendor/aosp" name="vendor_aosp" remote="evo" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
   <project path="vendor/themes" name="vendor_themes" remote="evo" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="evo" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="evo" />
+
   <!-- Packages repos -->
   <project path="packages/apps/Evolution" name="packages_apps_Evolution" remote="evo" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="evo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="evo" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="evo" />
   <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="evo" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="evo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="evo" />
+
+  <!-- Prebuilts -->   
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="evo" clone-depth="1" />
 
   <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="evo" />
+  <project path="system/core" name="system_core" remote="evo" />
   <project path="system/netd" name="system_netd" remote="evo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="evo" />
 
