@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gsi"
+          fetch="https://github.com/Evolution-X"
+          revision="gsi" />
+
+  <remote name="phh"
+          fetch="https://github.com/phhusson/" />
+
+  <!-- External repos -->
+  <project path="external/selinux" name="external_selinux" remote="gsi" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="gsi" />
+  <project path="frameworks/base" name="frameworks_base" remote="gsi" />
+  <project path="frameworks/native" name="frameworks_native" remote="gsi" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="gsi" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gsi" />
+
+  <!-- General repos -->
+  <project path="bionic" name="bionic" remote="gsi" />
+  <project path="build/make" name="build" remote="gsi">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="manifest" name="platform_manifest" remote="gsi" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gsi" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="gsi" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="gsi" />
+  <project path="system/core" name="system_core" remote="gsi" />
+  <project path="system/netd" name="system_netd" remote="gsi" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="gsi" />
+  <project path="system/vold" name="system_vold" remote="gsi" />
+
+  <!-- Treble repos -->
+  <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
+  <project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="android-9.0" />
+  <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
+  <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
+  <project path="vendor/gapps-go" name="gapps-go" remote="phh" revision="master" />
+  <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
+
+</manifest>

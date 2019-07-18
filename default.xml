@@ -741,4 +741,7 @@
   <!-- Add all Evolution X repos -->
   <include name="snippets/evolution.xml" />
 
+  <!-- Add all GSI repos -->
+  <include name="snippets/gsi.xml" />
+
 </manifest>
