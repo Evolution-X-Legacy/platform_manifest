@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pie-aosp-wfd"
+          fetch="https://github.com/Evolution-X"
+          revision="pie-aosp-wfd" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pie-aosp-wfd" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="pie-aosp-wfd" />
+
+</manifest>

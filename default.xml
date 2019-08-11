@@ -740,5 +740,6 @@
 
   <!-- Add all Evolution X repos -->
   <include name="snippets/evolution.xml" />
+  <include name="snippets/wfd.xml" />
 
 </manifest>
