@@ -12,7 +12,7 @@
 repo init -u https://github.com/Evolution-X/platform_manifest -b pie
 
 # Sync
-repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
