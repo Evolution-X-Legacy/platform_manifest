@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
+  <project remote="caf" name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc" revision="be4da3327535956bc14153446168fba4d3a28765" />
+  <project remote="caf" name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="ac2d3b3f1f44b3bc2c6123568b2ab0aa7f4cf268" />
+  <project remote="caf" name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="4e3bec42fcdba0d15927327b025f3db283a99a59" />
+  <project remote="caf" name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" revision="261aeb629795810c94e78371433724c5e430d927" />
+  <project remote="caf" name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="8541096753e210fd8e44102136d1b75daeccfafd" />
+  <project remote="caf" name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="c61c6e34ecca13e27e3e0d4441c14e7ea78e5b14" />
+</manifest>

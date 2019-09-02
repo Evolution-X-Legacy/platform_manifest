@@ -741,4 +741,6 @@
   <!-- Add all Evolution X repos -->
   <include name="snippets/evolution.xml" />
 
+  <!-- Add required CAF repos -->
+  <include name="snippets/caf.xml" />
 </manifest>
