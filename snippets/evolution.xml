@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="evo"
-          fetch="https://github.com/Evolution-X"
+          fetch="https://github.com/Evolution-X-Legacy"
           revision="pie" />
 
   <remote name="evo-devices"

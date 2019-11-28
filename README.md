@@ -9,7 +9,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Evolution-X/platform_manifest -b pie
+repo init -u https://github.com/Evolution-X-Legacy/platform_manifest -b pie
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
